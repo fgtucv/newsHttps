@@ -604,6 +604,8 @@ const input = document.querySelector(".input");
 const button = document.querySelector(".button");
 button.addEventListener("click", ()=>{
     getNews().then((data)=>{
+        console.log(data);
+        console.log("test");
         createMarkup(data.articles);
     });
 });
