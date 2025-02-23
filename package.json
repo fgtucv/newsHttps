@@ -2,12 +2,13 @@
   "name": "my-project",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "homepage": "https://github.com/fgtucv/newsHttps",
+  "homepage": "https://fgtucv.github.io/newsHttps/",
   "scripts": {
     "start": "parcel ./src/index.html --no-cache",
-    "build": "parcel build ./src/*.html --no-cache --public-url /event_booster-project/"
+    "build": "parcel build ./src/*.html --no-cache --public-url /newsHttps/"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.13.3"
   }
 }
