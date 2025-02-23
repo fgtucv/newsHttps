@@ -5,7 +5,9 @@
   "homepage": "https://fgtucv.github.io/newsHttps/",
   "scripts": {
     "start": "parcel ./src/index.html --no-cache",
-    "build": "parcel build ./src/*.html --no-cache --public-url /newsHttps/"
+    "build": "parcel build ./src/*.html --no-cache --public-url /newsHttps/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
